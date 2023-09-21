@@ -4,8 +4,20 @@
     justify-content: center;
 }
 
+
+
 .large-square {
-    width: 200px;
-    height: 200px;
-    border: 2px blue;
+    width: 500px;
+    height: 500px;
+    border: 1px solid #424632;  
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
