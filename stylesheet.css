@@ -12,8 +12,7 @@
     border: 1px solid #424632;  
     border-radius: 5px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
 }
 .wrapper {
     display: flex;
@@ -23,4 +22,6 @@
 
   .small-square{
     border: 1px solid #424632; 
+    width: calc(500px / 16);
+  height: calc(500px / 16);
   }
