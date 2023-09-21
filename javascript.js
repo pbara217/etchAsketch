@@ -14,3 +14,13 @@ smallSquare.className = "small-square";
 
 // Append the small Square in hte large square
 largeSquare.appendChild(smallSquare);
+
+//Get the size of the grid
+const largeSquareSize = 500;
+const divide = 16;
+const smallSquareSize = largeSquareSize / divide;
+
+//Set dimension of the small squares
+smallSquare.style.width = `${smallSquareSize}px`;
+smallSquare.style.height = `${smallSquareSize}px`;
+
