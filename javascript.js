@@ -72,13 +72,7 @@ largeSquare.appendChild(smallSquare);
 // Add the hoverover event
 smallSquare.onmouseover = function(){
     this.style.backgroundColor = "black";
-};
-}
-
-
-
-
-});
+};}});
 
 
 
