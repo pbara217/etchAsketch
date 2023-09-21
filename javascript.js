@@ -12,7 +12,7 @@ wrapper.appendChild(largeSquare);
 
 //Get the size of the grid
 const largeSquaredim = 500;
-const divide = 16;
+let divide = 16;
 const smallSquareSize = largeSquaredim / divide;
 const largeSquareSize = largeSquaredim + (2*divide);
 
@@ -30,5 +30,11 @@ smallSquare.className = "small-square";
 smallSquare.style.width = `${smallSquareSize}px`;
 smallSquare.style.height = `${smallSquareSize}px`;
 largeSquare.appendChild(smallSquare);
-    console.log(i)
+
+// Add the hoverover event
+smallSquare.onmouseover = function(){
+    this.style.backgroundColor = "black";
+};
 }
+
+// Change over in the size
