@@ -41,6 +41,7 @@ smallSquare.onmouseover = function(){
 const sizebutton = document.getElementById("sizePrompt");
 sizebutton.addEventListener("click", function (){
     let input = prompt("Please enter the amount of squares");
+    const numInput = parseInt(input);
 
 //Clear our the large square
 const largeSquare = document.querySelector(".large-square");
